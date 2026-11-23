@@ -28,7 +28,7 @@ Resources:
               StringEquals:
                 aws:SourceAccount: !Ref AWS::AccountId
       ManagedPolicyArns:
-        - arn:aws:iam::aws:policy/service-role/AWSLambdaManagedEC2ResourceOperator
+        - arn:aws:iam::aws:policy/AWSLambdaManagedEC2ResourceOperator
 
   CapacityProvider:
     Type: AWS::Lambda::CapacityProvider
